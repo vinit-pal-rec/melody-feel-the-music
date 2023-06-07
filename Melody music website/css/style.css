@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+    background-color: #f24682;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 3px;
+    /* border: 2px solid black;
+    border-radius: 34px;
+    */
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 44px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    background: rgb(243, 185, 185);
+
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+.brand img {
+    width: 115px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.container {
+    color: rgb(243, 185, 185);
+    min-height: 75vh;
+    background: #fa0a5e;
+    margin: 20px auto;
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url('/img/bg1.jpg');
+}
+
+.container h1 {
+    padding: 10px 10px;
+
+}
+
+.songItem {
+    height: 40px;
+    width: 50%;
+    display: flex;
+    background-color: pink;
+
+    color: black;
+    margin: 2px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 30px;
+    margin: 0 5px;
+    border-radius: 19px;
+}
+
+.timestamp {
+    margin: 0 20px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin: 15px 0px;
+    padding: 0px 2px;
+    color: rgb(243, 185, 185);
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+#myProgressBar {
+    width: 190vh;
+    margin-top: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vh;
+    color: pink;
+    margin-top: 20px;
+}
+
+.songInfo img {
+    padding: 0px 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#masterSongName {
+    margin: 20px;
+    padding: 0px 0px;
+}
